@@ -1,0 +1,145 @@
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+      flex-direction: column;
+      body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        background-color: #7ace7af4;
+        font-family: Arial, sans-serif;
+      }
+      
+      .title {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+      }
+      
+    
+      .nav {
+        padding: 10px;
+        background-color: #44c172;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #a40c0c;
+      }
+      
+    
+      
+      .article {
+        margin: 0;
+        background-color: #e4c665;
+        padding: 90px;
+        box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+      }
+
+      .aside {
+        background-color: #128667;
+        padding: 25px;
+      }
+      
+      .footer {
+        background-color: #ed96e0;
+        color: #1c0487;
+        text-align: center;
+        padding: 25px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    body {
+      font-size: 18px;
+      
+      body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        background-color: #7ace7af4;
+        font-family: Arial, sans-serif;
+      }
+      
+      .title {
+        background-color: #710101;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+      }
+      
+    
+      .nav {
+        padding: 10px;
+        background-color: #44c172;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #a40c0c;
+      }
+      
+    .display{
+        display: flex;
+    }
+     
+      .article {
+        order: 1;
+        flex: 70%;
+        margin: 0;
+        background-color: #e4c665;
+        padding: 100px;
+        box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+      }
+      .aside {
+        order: 2;
+        flex:30%;
+        background-color: #128667;
+        padding: 100px;
+      }
+      
+      
+      .footer {
+        background-color: #ed96e0;
+        color: #1c0487;
+        text-align: center;
+        padding: 25px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
